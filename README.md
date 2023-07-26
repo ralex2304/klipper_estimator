@@ -1,5 +1,11 @@
 # Klipper print time estimator
 
+## Fork
+This fork is intended for use with [fan ramp up postprocessor](https://github.com/ralex2304/PrusaSlicer-fan-rampUp). Usage instructions are there.
+
+`dump-moves` mode is modified. Now it doesn't print data, it writes move time at the end of the gcode file.
+
+## Original readme
 `klipper_estimator` is a tool for determining the time a print will take using
 the Klipper firmware. Currently it provides the following modes:
 
